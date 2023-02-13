@@ -124,17 +124,13 @@ After cloning the project you need to run these commands
 
 `npm install` `This command will download all the dependancies of the project`
 
-For tracking linter errors in HTML files run:
-
-`npx hint .`
-
 For tracking linter errors in CSS or SASS files run:
 
 `npx stylelint "**/*.{css,scss}`
 
-And For tracking linter errors in JavaScript files run:
+And For tracking linter errors in REACT files run:
 
-`npx eslint .`
+`npx eslint "**/*.{js,jsx}"`
 
 ### Usage
 
