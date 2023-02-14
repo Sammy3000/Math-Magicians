@@ -1,13 +1,10 @@
+/* eslint-disable */
 import "./App.css";
+import Calc from "./components/calculator";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello REACT</p>
-      </header>
-    </div>
-  );
+  return <Calc></Calc>;
 }
 
 export default App;
+/* eslint-enable */
