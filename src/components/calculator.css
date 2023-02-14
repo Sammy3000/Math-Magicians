@@ -3,18 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background: #fff;
 }
+
 .container-grid {
   display: grid;
   grid-template-columns: repeat(4, 10rem);
   margin-top: 2rem;
   grid-template-rows: minmax(5rem, auto) repeat(5, 6rem);
 }
+
 .span-two {
   grid-column: span 2;
 }
+
 .output {
   grid-column: span 4;
   background-color: rgb(39, 37, 37, 0.6);
@@ -32,11 +36,13 @@ body {
   font-size: 2rem;
   font-weight: 700;
 }
+
 .currentOperand {
   color: white;
   font-size: 2.5rem;
   font-weight: 700;
 }
+
 button {
   color: lightgray;
   color: black;
@@ -44,6 +50,7 @@ button {
   font-weight: 500;
   border: 1px solid black;
 }
+
 .operand {
   background-color: rgb(255, 94, 0, 0.75);
 }
