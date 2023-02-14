@@ -1,13 +1,8 @@
 import './App.css';
+import Calc from './components/calculator';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello REACT</p>
-      </header>
-    </div>
-  );
+  return <Calc />;
 }
 
 export default App;
