@@ -1,5 +1,4 @@
-/*eslint-disable*/
-import "./card.css";
+import './card.css';
 
 const containerCover = (prop) => {
   const cover = `container-cover ${prop.className}`;

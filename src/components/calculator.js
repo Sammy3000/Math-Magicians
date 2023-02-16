@@ -1,8 +1,7 @@
-/*eslint-disable*/
-import React, { Component } from "react";
-import "./calculator.css";
-import calculate from "../logic/calculate";
-import Card from "./card";
+import React, { Component } from 'react';
+import './calculator.css';
+import calculate from '../logic/calculate';
+import Card from './card';
 
 class Calculator extends Component {
   constructor(props) {
@@ -19,6 +18,7 @@ class Calculator extends Component {
       this.setState(outcome);
     };
   }
+
   render() {
     const { total, operation, next } = this.state;
     return (
