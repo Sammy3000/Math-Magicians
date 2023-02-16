@@ -9,7 +9,7 @@ class App extends Component {
     this.state = {};
   }
   render() {
-    <Calc />;
+    return <Calc />;
   }
 }
 

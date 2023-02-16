@@ -13,80 +13,106 @@ class Calculator extends Component {
       operation: null,
     };
 
-    this.btnClicked = (e) => {
-      const clickedBtn = e.target.innerText;
-      const Result = calculate(this.state, clickedBtn);
-      this.setState(Result);
+    this.buttonClicked = (e) => {
+      const clickedButton = e.target.innerText;
+      const outcome = calculate(this.state, clickedButton);
+      this.setState(outcome);
     };
   }
   render() {
     const { total, operation, next } = this.state;
-    <Card>
-      <div className="container-grid">
-        <div className="output">
-          <div>{total}</div>
-          <div className="previousOperand">{operation}</div>
-          <div className="currentOperand">{next}</div>
+    return (
+      <Card>
+        <div className="container-grid">
+          <div className="output">
+            <div>{total}</div>
+            <div className="previousOperand">{operation}</div>
+            <div className="currentOperand">{next}</div>
+          </div>
+          <button type="button" onClick={this.buttonClicked}>
+            AC
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            +/-
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            %
+          </button>
+          <button
+            type="button"
+            className="operand"
+            onClick={this.buttonClicked}
+          >
+            ÷
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            7
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            8
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            9
+          </button>
+          <button
+            type="button"
+            className="operand"
+            onClick={this.buttonClicked}
+          >
+            x
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            4
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            5
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            6
+          </button>
+          <button
+            type="button"
+            className="operand"
+            onClick={this.buttonClicked}
+          >
+            -
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            1
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            2
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            3
+          </button>
+          <button
+            type="button"
+            className="operand"
+            onClick={this.buttonClicked}
+          >
+            +
+          </button>
+          <button
+            type="submit"
+            className="span-two"
+            onClick={this.buttonClicked}
+          >
+            0
+          </button>
+          <button type="button" onClick={this.buttonClicked}>
+            .
+          </button>
+          <button
+            type="button"
+            className="operand"
+            onClick={this.buttonClicked}
+          >
+            =
+          </button>
         </div>
-        <button type="button" onClick={this.btnClicked}>
-          AC
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          +/-
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          %
-        </button>
-        <button type="button" className="operand" onClick={this.btnClicked}>
-          ÷
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          7
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          8
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          9
-        </button>
-        <button type="button" className="operand" onClick={this.btnClicked}>
-          x
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          4
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          5
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          6
-        </button>
-        <button type="button" className="operand" onClick={this.btnClicked}>
-          -
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          1
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          2
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          3
-        </button>
-        <button type="button" className="operand" onClick={this.btnClicked}>
-          +
-        </button>
-        <button type="submit" className="span-two" onClick={this.btnClicked}>
-          0
-        </button>
-        <button type="button" onClick={this.btnClicked}>
-          .
-        </button>
-        <button type="button" className="operand" onClick={this.btnClicked}>
-          =
-        </button>
-      </div>
-    </Card>;
+      </Card>
+    );
   }
 }
 
