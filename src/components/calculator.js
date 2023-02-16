@@ -1,5 +1,6 @@
-import './calculator.css';
-import Card from './card';
+/*eslint-disable*/
+import "./calculator.css";
+import Card from "./card";
 
 const Calculator = () => (
   <Card>
