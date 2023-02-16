@@ -1,9 +1,16 @@
 /*eslint-disable*/
+import React, { Component } from "react";
 import "./App.css";
 import Calc from "./components/calculator";
 
-function App() {
-  return <Calc />;
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    <Calc />;
+  }
 }
 
 export default App;
