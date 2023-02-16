@@ -1,10 +1,7 @@
-/*eslint-disable*/
-import React, { Component } from "react";
-import "./App.css";
-import Calc from "./components/calculator";
+import React from 'react';
+import './App.css';
+import Calc from './components/calculator';
 
-const App = () => {
-  return <Calc />;
-};
+const App = () => <Calc />;
 
 export default App;

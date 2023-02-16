@@ -1,8 +1,7 @@
-/*eslint-disable*/
-import React, { useState } from "react";
-import "./calculator.css";
-import calculate from "../logic/calculate";
-import Card from "./card";
+import React, { useState } from 'react';
+import './calculator.css';
+import calculate from '../logic/calculate';
+import Card from './card';
 
 const Calculator = () => {
   const [currentState, setState] = useState({
@@ -22,9 +21,9 @@ const Calculator = () => {
       <div className="container-grid">
         <div className="output">
           {total}
-          {""}
+
           {operation}
-          {""}
+
           {next}
         </div>
         <button type="button" onClick={buttonClicked}>
