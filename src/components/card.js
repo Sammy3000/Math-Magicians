@@ -1,7 +1,4 @@
 import './card.css';
 
-const containerCover = (prop) => {
-  const cover = `container-cover ${prop.className}`;
-  return <div className={cover}>{prop.children}</div>;
-};
-export default containerCover;
+const Card = () => <div className="container-cover" />;
+export default Card;
