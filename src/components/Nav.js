@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Component.css';
+import './Nav.css';
 
 function Nav() {
   return (
     <nav>
+      <h2 className="nav-header">Math Magicians</h2>
       <div className="link">
         <Link to="/">Home</Link>
         <Link to="/calculator">Calculator</Link>

@@ -5,7 +5,6 @@ import Calc from './components/calculator';
 import Home from './components/Home';
 import Nav from './components/Nav';
 import Quote from './components/Quote';
-import './Component.css';
 
 const App = () => (
   <>

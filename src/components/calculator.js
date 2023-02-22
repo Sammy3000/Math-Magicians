@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './calculator.css';
 import calculate from '../logic/calculate';
-import Card from './card';
 
 class Calculator extends Component {
   constructor(props) {
@@ -22,12 +21,13 @@ class Calculator extends Component {
   render() {
     const { total, operation, next } = this.state;
     return (
-      <Card>
+      <div className="container-cover">
+        <div className="page-info">Lets do some math!</div>
         <div className="container-grid">
           <div className="output">
             <div>{total}</div>
-            <div className="previousOperand">{operation}</div>
-            <div className="currentOperand">{next}</div>
+            {operation}
+            {next}
           </div>
           <button type="button" onClick={this.buttonClicked}>
             AC
@@ -111,7 +111,7 @@ class Calculator extends Component {
             =
           </button>
         </div>
-      </Card>
+      </div>
     );
   }
 }
