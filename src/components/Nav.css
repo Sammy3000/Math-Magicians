@@ -9,21 +9,26 @@ nav {
   background-color: #fff;
   color: black;
 }
+
 nav a {
   text-decoration: none;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
+
 nav a:active {
   color: blueviolet;
 }
+
 .link {
   display: flex;
   gap: 1rem;
   font-size: 1.3rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .nav-header {
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
