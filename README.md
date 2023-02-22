@@ -80,6 +80,12 @@ In order to run this project you need:
 - Git/Github
 - HTML and CSS knowledge
 - VS code or any other equivalent tool.
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Single Page Application**
+- **Dynamic**
 
  <!-- LIVE DEMO -->
 
