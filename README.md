@@ -166,13 +166,6 @@ Give a ⭐️ if you like this project!
 - Thanks to My Morning-session-group and Standup-team Partners.
 - Thanks to Code Reviewers
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Features I will add to the project.
-
-- [ About Page ] **[Feature that displays random math quotes]**
 
 ## 📝 License <a name="license"></a>
 
