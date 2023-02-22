@@ -10,11 +10,11 @@ function Home() {
         justifyContent: 'center',
         padding: '1rem',
         height: '80vh',
-        lineHeight: '1.3rem',
+        lineHeight: '1.8rem',
         background: 'linear-gradient(to right, green, rgb(128, 128, 228))',
         color: 'white',
         fontSize: '1.3rem',
-        fontFamily: 'sans-serif',
+        fontFamily: 'Arial, Helvetica, sans-serif',
         fontWeight: '300',
         width: '100%',
       }}
