@@ -52,6 +52,7 @@ button {
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   padding: 1.5rem;
+  background: linear-gradient(to right, orange, wheat);
 }
 .page-info {
   font-size: 1.5rem;

@@ -11,13 +11,12 @@ function Home() {
         padding: '1rem',
         height: '80vh',
         lineHeight: '1.3rem',
-        backgroundColor: 'white',
-        color: 'black',
+        background: 'linear-gradient(to right, green, rgb(128, 128, 228))',
+        color: 'white',
         fontSize: '1.3rem',
         fontFamily: 'sans-serif',
         fontWeight: '300',
-        width: '90%',
-        margin: '0 auto',
+        width: '100%',
       }}
     >
       <h2 style={{ fontWeight: '700', padding: '2rem 0' }}>
