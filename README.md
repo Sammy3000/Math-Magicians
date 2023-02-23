@@ -50,7 +50,6 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -134,8 +133,6 @@ And For tracking linter errors in REACT files run:
 <!-- AUTHORS -->
 
 ## 👥 Author <a name="author"></a>
-
-> This is a solo project.
 
 👤 **Towett Sammy**
 
