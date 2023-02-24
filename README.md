@@ -90,7 +90,7 @@ In order to run this project you need:
 
 ### LIVE DEMO
 
-- See it live by clicking [Live Demo Link]()
+- See it live by clicking [Live Demo Link](https://sammy-math-magician.onrender.com)
 
 ### Setup
 
